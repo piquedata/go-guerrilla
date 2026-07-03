@@ -1,8 +1,6 @@
 module github.com/phires/go-guerrilla
 
-go 1.23.0
-
-toolchain go1.24.1
+go 1.25.0
 
 require (
 	blitiri.com.ar/go/spf v1.5.1
@@ -12,8 +10,8 @@ require (
 	github.com/gomodule/redigo v1.9.2
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cobra v1.8.0
-	golang.org/x/crypto v0.36.0
-	golang.org/x/net v0.38.0
+	golang.org/x/crypto v0.51.0
+	golang.org/x/net v0.55.0
 	gopkg.in/iconv.v1 v1.1.1
 )
 
@@ -22,6 +20,6 @@ require (
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stretchr/testify v1.9.0 // indirect
-	golang.org/x/sys v0.31.0 // indirect
-	golang.org/x/text v0.23.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
 )
